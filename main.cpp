@@ -39,7 +39,7 @@ int main()
         cout << "You entered this as your UserData:"; '/n'; cout << UserData;
 
 
-        ofstream myfile ("example.txt");
+        ofstream myfile ("UserData.txt");
         if (myfile.is_open())
         {
         myfile << "UserData is inputted into this file.\n";
